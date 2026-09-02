@@ -1,0 +1,10 @@
+* { box-sizing : border-box; }
+html, body { margin : 0; padding : 0; background : #f2f2f2; }
+body { font-family : Pretendard, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+.product-detail { overflow : hidden; width : min(100%, 1200px); margin : 0 auto; background : #fff; }
+.design-slice { display : block; width : 100%; font-size : 0; line-height : 0; }
+.design-slice img { display : block; width : 100%; height : auto; margin : 0; padding : 0; border : 0; }
+.sr-only { position : absolute!important; overflow : hidden!important; clip : rect(0, 0, 0, 0)!important; width : 1px!important; height : 1px!important; padding : 0!important; margin : -1px!important; border : 0!important; white-space : nowrap!important; }
+@media(max-width:1200px) {
+  .product-detail { width : 100%; }
+}
